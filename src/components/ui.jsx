@@ -65,7 +65,7 @@ export function Logo({ size = 'nav' }) {
   const src = `${import.meta.env.BASE_URL}${size === 'nav' ? 'logo-720.webp' : 'logo-1400.webp'}`;
   return (
     <span className={`logo-plate logo-plate--${size}`}>
-      <img src={src} alt="ORN SKY 27 — المعرض الدولي للطائرات" width="1400" height="639" />
+      <img src={src} alt="ORN SKY 27" width="1400" height="645" />
     </span>
   );
 }
